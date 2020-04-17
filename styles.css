@@ -15,8 +15,8 @@ a:hover {
 /* =============================== */
 
 #navigation {
-  font-size: 1.5rem;
-  font-weight: 200;
+  font-family: 'Lobster Two', cursive;
+  font-size: 3rem;
   text-transform: uppercase;
   letter-spacing: 5px;
 }
@@ -27,17 +27,7 @@ a:hover {
 
 #main-menu .nav-link:hover {
   color: #c13584;
-}
-
-#main-menu-container {
-  display: flex;
-  justify-content: center;
-}
-
-#main-menu {
-  width: 90%;
-  display: flex;
-  justify-content: space-evenly;
+  font-weight: 600;
 }
 
 /* =============================== */
@@ -59,6 +49,11 @@ a:hover {
   width: 20rem;
   height: 20rem;
   border: 5px solid #fff;
+}
+
+#profile-img:hover {
+  transform: scale(1.1);
+  border: 5px solid #c13584;
 }
 
 .social-media-icon-box {
