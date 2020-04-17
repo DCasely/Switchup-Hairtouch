@@ -6,13 +6,27 @@ body {
   padding: 0;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 /* =============================== */
 /* NAVIGATION */
 /* =============================== */
 
 #navigation {
   font-size: 1.5rem;
-  display: none;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+#main-menu .nav-link {
+  color: #fff;
+}
+
+#main-menu .nav-link:hover {
+  color: #c13584;
 }
 
 #main-menu-container {
@@ -59,15 +73,26 @@ body {
   color: #3b5998;
 }
 
+.fa-facebook:hover {
+  transform: scale(1.2);
+}
+
 .fa-instagram-square {
   color: #c13584;
 }
 
-.facebook-btn {
-  background-color: #fff;
-  font-size: 1.25rem;
+.fa-instagram-square:hover {
+  transform: scale(1.2);
 }
 
-#link-to-facebook a:hover {
-  text-decoration: none;
+.facebook-btn {
+  background-color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 5px solid #c13584;
+}
+
+.facebook-btn:hover {
+  transform: scale(1.2);
 }
