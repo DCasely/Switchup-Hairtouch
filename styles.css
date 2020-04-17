@@ -65,3 +65,7 @@ body {
   background-color: #fff;
   font-size: 1.25rem;
 }
+
+#link-to-facebook a:hover {
+  text-decoration: none;
+}
