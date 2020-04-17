@@ -12,6 +12,7 @@ body {
 
 #navigation {
   font-size: 1.5rem;
+  display: none;
 }
 
 #main-menu-container {
@@ -42,6 +43,7 @@ body {
 #profile-img {
   border-radius: 50%;
   width: 20rem;
+  height: 20rem;
   border: 5px solid #fff;
 }
 
