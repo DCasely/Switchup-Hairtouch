@@ -21,6 +21,10 @@ a:hover {
   letter-spacing: 5px;
 }
 
+#navigation-container {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 #main-menu .nav-link {
   color: #fff;
 }
@@ -135,4 +139,13 @@ a:hover {
 
 #pricing .fa-facebook {
   color: #fff;
+}
+
+/* =============================== */
+/* CONTACT */
+/* =============================== */
+
+#contact {
+  background-color: #000;
+  height: 100vh;
 }
