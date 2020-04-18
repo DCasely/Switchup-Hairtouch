@@ -123,6 +123,11 @@ a:hover {
   color: #fff;
 }
 
+.book-me-btn:hover,
+.call-now-link:hover {
+  color: #fff;
+}
+
 .facebook-book-me-btn .fa-facebook {
   color: #fff;
 }
