@@ -118,19 +118,40 @@ a:hover {
   border: 5px solid #000;
 }
 
-.card-body-pink {
-  background-color: #c13584;
-  color: #fff;
-}
-
-.card-body-black {
+.card-body {
   background-color: #000;
   color: #fff;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.card-description {
+  height: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: #c13584;
+  margin-bottom: 1rem;
 }
 
 #pricing h5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: 'Lobster Two', cursive;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  height: 5rem;
+}
+
+#pricing h4 {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+#pricing p {
+  margin: 0;
 }
 
 #pricing .btn {
@@ -139,7 +160,7 @@ a:hover {
 }
 
 #pricing .btn:hover {
-  transform: scale(1.1);
+  border: 1px solid #fff;
 }
 
 #pricing a {
