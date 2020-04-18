@@ -39,7 +39,7 @@ a:hover {
 /* =============================== */
 
 #home {
-  height: 100vh;
+  min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
     url(./images/backgroundimg.png);
   background-size: cover;
