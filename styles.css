@@ -84,7 +84,7 @@ a:hover {
   transform: scale(1.1);
 }
 
-.facebook-btn {
+.facebook-book-me-btn {
   /* background: linear-gradient(rgba(59, 89, 152, 0.75), rgba(0, 0, 0, 0.5)); */
   background-color: #2d88ff;
   font-size: 1.25rem;
@@ -92,17 +92,18 @@ a:hover {
   letter-spacing: 1.5px;
   text-transform: uppercase;
   width: 20rem;
+  margin-bottom: 5%;
 }
 
-#link-to-facebook {
+#book-me-btn {
   color: #fff;
 }
 
-.facebook-btn .fa-facebook {
+.facebook-book-me-btn .fa-facebook {
   color: #fff;
 }
 
-.facebook-btn:hover {
+.facebook-book-me-btn:hover {
   transform: scale(1.1);
 }
 
