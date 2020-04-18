@@ -16,7 +16,7 @@ a:hover {
 
 #navigation {
   font-family: 'Lobster Two', cursive;
-  font-size: 3rem;
+  font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 5px;
 }
@@ -34,7 +34,7 @@ a:hover {
 /* WELCOME */
 /* =============================== */
 
-#welcome {
+#home {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
     url(./images/backgroundimg.png);
@@ -68,8 +68,8 @@ a:hover {
   color: #3b5998;
 }
 
-.fa-facebook:hover {
-  transform: scale(1.2);
+#facebook-icon:hover {
+  transform: scale(1.1);
 }
 
 .fa-instagram-square {
@@ -77,7 +77,7 @@ a:hover {
 }
 
 .fa-instagram-square:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .facebook-btn {
@@ -99,5 +99,40 @@ a:hover {
 }
 
 .facebook-btn:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
+}
+
+/* =============================== */
+/* PRICING */
+/* =============================== */
+
+#pricing {
+  margin: 5% 0;
+}
+
+#pricing .card:hover {
+  border: 5px solid #c13584;
+}
+
+#pricing h5 {
+  font-family: 'Lobster Two', cursive;
+  font-size: 2rem;
+}
+
+#pricing .btn {
+  background-color: #2d88ff;
+  width: 12.5rem;
+}
+
+#pricing .btn:hover {
+  transform: scale(1.1);
+}
+
+#pricing a {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#pricing .fa-facebook {
+  color: #fff;
 }
