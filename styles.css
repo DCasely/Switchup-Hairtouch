@@ -114,8 +114,18 @@ a:hover {
   margin: 5% 0;
 }
 
-#pricing .card:hover {
-  border: 5px solid #c13584;
+#pricing .card {
+  border: 5px solid #000;
+}
+
+.card-body-pink {
+  background-color: #c13584;
+  color: #fff;
+}
+
+.card-body-black {
+  background-color: #000;
+  color: #fff;
 }
 
 #pricing h5 {
