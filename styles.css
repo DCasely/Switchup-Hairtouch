@@ -99,7 +99,23 @@ a:hover {
   border: none;
 }
 
-#book-me-btn {
+.call-now-btn {
+  background: linear-gradient(
+    to right,
+    rgba(59, 89, 152, 0.9),
+    rgba(193, 53, 132, 0.9)
+  );
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  width: 10rem;
+  margin-bottom: 5%;
+  border: none;
+}
+
+.book-me-btn,
+.call-now-btn {
   color: #fff;
 }
 
@@ -107,7 +123,8 @@ a:hover {
   color: #fff;
 }
 
-.facebook-book-me-btn:hover {
+.facebook-book-me-btn:hover,
+.call-now-btn:hover {
   transform: scale(1.1);
 }
 
@@ -176,6 +193,13 @@ a:hover {
   margin: 0;
 }
 
+#pricing .btn-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 #pricing .btn {
   background: linear-gradient(
     to right,
@@ -183,10 +207,14 @@ a:hover {
     rgba(193, 53, 132, 0.9)
   );
   width: 7.5rem;
+  height: 2rem;
+  padding: 0;
+  margin: 2.5%;
+  font-size: 1.25rem;
 }
 
-#pricing .btn:hover {
-  border: 1px solid #fff;
+#pricing .call-now-btn {
+  width: 3rem;
 }
 
 #pricing a {
