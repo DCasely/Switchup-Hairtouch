@@ -85,14 +85,18 @@ a:hover {
 }
 
 .facebook-book-me-btn {
-  /* background: linear-gradient(rgba(59, 89, 152, 0.75), rgba(0, 0, 0, 0.5)); */
-  background-color: #2d88ff;
+  background: linear-gradient(
+    to right,
+    rgba(59, 89, 152, 0.9),
+    rgba(193, 53, 132, 0.9)
+  );
   font-size: 1.25rem;
   font-weight: 600;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   width: 20rem;
   margin-bottom: 5%;
+  border: none;
 }
 
 #book-me-btn {
@@ -115,6 +119,9 @@ a:hover {
   margin: 5% 0;
 }
 
+#pricing .container {
+}
+
 #pricing .card {
   border: 5px solid #000;
 }
@@ -124,8 +131,8 @@ a:hover {
 }
 
 .card-body {
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   padding-right: 0;
   padding-left: 0;
 }
@@ -137,7 +144,12 @@ a:hover {
   align-items: center;
   flex-direction: column;
   width: 100%;
-  background-color: #c13584;
+  background: linear-gradient(
+    to right,
+    rgba(59, 89, 152, 0.9),
+    rgba(193, 53, 132, 0.9)
+  );
+  color: #fff;
   margin-bottom: 1rem;
 }
 
@@ -160,7 +172,11 @@ a:hover {
 }
 
 #pricing .btn {
-  background-color: #2d88ff;
+  background: linear-gradient(
+    to right,
+    rgba(59, 89, 152, 0.9),
+    rgba(193, 53, 132, 0.9)
+  );
   width: 12.5rem;
 }
 
@@ -175,6 +191,18 @@ a:hover {
 
 #pricing .fa-facebook {
   color: #fff;
+}
+
+#pricing hr {
+  border: 0;
+  height: 1px;
+  width: 50%;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
 }
 
 /* =============================== */
