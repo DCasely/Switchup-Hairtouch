@@ -23,10 +23,14 @@ a:hover {
 
 #navigation-container {
   background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 #main-menu .nav-link {
   color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 #main-menu .nav-link:hover {
@@ -162,9 +166,7 @@ a:hover {
 .card-body {
   background-color: #fff;
   color: #000;
-  padding-right: 0;
-  padding-left: 0;
-  padding-top: 0;
+  padding: 0;
   /* display: flex;
   justify-content: center;
   align-items: center;
@@ -193,13 +195,16 @@ a:hover {
   align-items: center;
   font-family: 'Lobster Two', cursive;
   font-size: 1.75rem;
+  color: #c13584;
   height: 2.5rem;
+  margin-bottom: 0;
 }
 
 #pricing h4 {
   font-size: 1.25rem;
   font-weight: 300;
   text-transform: uppercase;
+  letter-spacing: 3px;
   margin: 0;
 }
 
@@ -229,6 +234,7 @@ a:hover {
 
 #pricing .book-me-btn {
   border-radius: 30px;
+  font-weight: 500;
 }
 
 #pricing .call-now-btn {
@@ -259,6 +265,10 @@ a:hover {
     rgba(0, 0, 0, 0.75),
     rgba(0, 0, 0, 0)
   );
+}
+
+.col-12 {
+  margin-bottom: 10%;
 }
 
 /* =============================== */
