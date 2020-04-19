@@ -38,6 +38,10 @@ a:hover {
 /* WELCOME */
 /* =============================== */
 
+#test {
+  border-radius: 30px;
+}
+
 #home {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
@@ -94,6 +98,7 @@ a:hover {
     rgba(59, 89, 152, 0.9),
     rgba(193, 53, 132, 0.9)
   );
+  border-radius: 30px;
   font-size: 1.25rem;
   font-weight: 600;
   letter-spacing: 1.5px;
@@ -109,6 +114,7 @@ a:hover {
     rgba(59, 89, 152, 0.9),
     rgba(193, 53, 132, 0.9)
   );
+  border-radius: 30px;
   font-size: 1.25rem;
   font-weight: 600;
   letter-spacing: 1.5px;
@@ -158,10 +164,11 @@ a:hover {
   color: #000;
   padding-right: 0;
   padding-left: 0;
-  display: flex;
+  padding-top: 0;
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column; */
 }
 
 .card-description {
@@ -170,14 +177,13 @@ a:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 75%;
+  width: 100%;
   background: linear-gradient(
     to right,
     rgba(59, 89, 152, 0.9),
     rgba(193, 53, 132, 0.9)
   );
   color: #fff;
-
   margin-bottom: 1rem;
 }
 
@@ -219,6 +225,10 @@ a:hover {
   padding: 0;
   margin: 2.5%;
   font-size: 1.25rem;
+}
+
+#pricing .book-me-btn {
+  border-radius: 30px;
 }
 
 #pricing .call-now-btn {
