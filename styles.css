@@ -152,7 +152,7 @@ a:hover {
 /* =============================== */
 
 #pricing {
-  margin: 5% 0;
+  margin: 5% 0 0;
 }
 
 #pricing .card {
@@ -267,7 +267,7 @@ a:hover {
   );
 }
 
-.col-12 {
+#pricing .col-12 {
   margin-bottom: 10%;
 }
 
@@ -277,5 +277,31 @@ a:hover {
 
 #contact {
   background-color: #000;
-  height: 100vh;
+  color: #fff;
+  padding: 5% 0;
+}
+
+#contact h1,
+#contact h2 {
+  font-family: 'Lobster Two', cursive;
+}
+
+#contact img {
+  width: 5rem;
+  height: 5rem;
+  margin: 15px 0;
+}
+
+#address-col a {
+  font-size: 3rem;
+  padding: 5%;
+}
+
+#phone h2 {
+  font-size: 1.5rem;
+  margin: 2.5rem 0;
+}
+
+#contact .col-12 {
+  margin-bottom: 10%;
 }
