@@ -35,7 +35,10 @@ a:hover {
 
 #main-menu .nav-link:hover {
   color: #c13584;
-  font-weight: 600;
+}
+
+#main-menu .highlighted {
+  color: #c13584;
 }
 
 /* =============================== */
